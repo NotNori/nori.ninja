@@ -1,0 +1,54 @@
+<html>
+	<style>
+		a:link, a:link:active, a:visited:active, a:visited {
+			color:#fff;
+			text-decoration: none;
+			font-family: 'Source Code Pro', monospace;
+			transition: all 0.2s linear;
+		}
+		
+		a:hover {
+			color: #7f8082
+		}
+	</style>
+
+	<head>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
+		<title>nori.ninja</title>
+
+		<meta property="og:type" content="nori.ninja">
+		<meta property="og:title" content="nori.ninja" />
+		<meta property="og:description" content="stop posting my website in ur server retard" />
+		<meta property="og:url" content="nori.ninja" />
+		<meta property="og:image" content="" />
+
+		<script
+  		src="https://code.jquery.com/jquery-3.6.0.js"
+  		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  		crossorigin="anonymous">
+		</script>
+
+		<script>
+			$(document).ready(function () {
+				$('#mainHeader').fadeIn(900, function() {});
+				$('#mainGif').fadeIn(900, function() {});
+				$('#githubLink').fadeIn(1700, function() {});
+				$('#discordLink').fadeIn(1300, function() {});
+				$('#twitchLink').fadeIn(900, function() {});
+			});
+		</script>
+	</head>
+
+	<body style="background-color: #6200EE;">
+		<div style="display: flex; justify-content: center; align-items: center; position: relative;">
+			<h1 id="mainHeader" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, 900%); text-align: center; font-family: 'Source Code Pro', monospace; color:#fff; display:none">nori.ninja</h1>
+
+			<img id="mainGif" src="top.gif" width="250" height="200" style="position: absolute; top: 50%; left: 50%; transform: translate(-56%, 92%); display:none">
+
+			<a id="githubLink" href="https://github.com/notnori" style="position: absolute; top: 50%; left: 50%; transform: translate(130%, 2300%); display:none">github</a>
+			<a id="discordLink" href="https://discord.com/users/103226117506224128" style="position: absolute; top: 50%; left: 50%; transform: translate(-43%, 2300%); display:none">nori#0001</a>
+			<a id="twitchLink" href="https://twitch.tv/cddl" style="position: absolute; top: 50%; left: 50%; transform: translate(-210%, 2300%); display:none">twitch</a>
+		</div>
+	</body>
+</html>

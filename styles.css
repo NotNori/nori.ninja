@@ -1,13 +1,23 @@
-body {
+html,body {
     background-color: #6200EE;
+    padding: 0;
+    margin: 0;
 }
 
 #mainContainer {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 90%;
+}
+
+#headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -20px;
 }
 
 #imgContainer {
@@ -20,6 +30,7 @@ body {
 
 #linksContainer {
     display: flex;
+    margin-top: 10px;
     gap: 25px;
 }
 

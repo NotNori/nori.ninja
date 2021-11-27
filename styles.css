@@ -10,7 +10,7 @@ html,body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90%;
+    height: 92%;
 }
 
 #headerContainer {
@@ -40,4 +40,15 @@ html,body {
 
 a {
     display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footerP {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
 }
